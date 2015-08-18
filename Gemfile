@@ -46,10 +46,10 @@ group :development, :test do
 end
 
 group :test do
-	
-	gem 'shoulda-matchers'
-	gem 'faker'
-    gem 'factory_girl_rails'
+  gem 'rspec-collection_matchers'
+  gem 'faker'
+  gem 'factory_girl_rails'
+  gem 'shoulda-matchers'
 end
 
 gem 'rails-admin-scaffold'
